@@ -1,0 +1,23 @@
+{
+  "name": "database-dump",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Generates dumps for different kinds of dataabses.",
+  "keywords": ["arangodb", "mongodb", "database", "backup", "dump"],
+  "dependencies": {
+    "async": "2.5.0",
+    "aws-sdk": "2.114.0",
+    "mongodb": "3.1.10",
+    "shelljs": "0.7.8"
+  },
+  "scripts": {
+    "debug": "node index.js",
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolaselkhoury/database-dump.git"
+  },
+  "author": "Nicolas El Khoury"
+}
