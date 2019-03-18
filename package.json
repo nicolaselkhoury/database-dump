@@ -3,7 +3,13 @@
   "private": false,
   "version": "0.0.1",
   "description": "Generates dumps for different kinds of dataabses.",
-  "keywords": ["arangodb", "mongodb", "database", "backup", "dump"],
+  "keywords": [
+    "arangodb",
+    "mongodb",
+    "database",
+    "backup",
+    "dump"
+  ],
   "dependencies": {
     "async": "2.5.0",
     "aws-sdk": "2.114.0",

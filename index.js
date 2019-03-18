@@ -1,5 +1,5 @@
 "use strict";
-const dump = require("./dump.js");
+const dump = require("./lib/dump.js");
 
 console.log("============================");
 console.log("Database Dump. Date: " + new Date());
