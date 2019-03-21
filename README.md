@@ -27,7 +27,7 @@ node index.js
 
 Below is a example of a configuration file that contains information of a MongoDB database, and an ArangoDB database:
 
-```json
+```javascript
 module.exports = {
     "connections" : [
         {
